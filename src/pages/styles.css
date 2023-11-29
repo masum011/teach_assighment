@@ -1,0 +1,78 @@
+.userlist{
+    padding: 2rem;
+}
+.user--title{
+    text-align: center;
+    padding-block: 1rem;
+}
+.users-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.users-card:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+}
+/* --------userbyid-------- */
+
+.user--header-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+
+}
+.country--dropdown>label{
+    padding-right: .5rem;
+}
+.country--dropdown>select{
+    padding: .5rem;
+    outline: none;
+}
+.left-div{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.time>p{
+    background-color: black;
+    padding: .5rem;
+    color: white;
+    padding-inline: 2.5rem;
+}
+.user--header-div>div>button,.user--header-div>.left-div>div>button{
+    padding: .5rem;
+    cursor: pointer;
+}
+.user--detalis{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-radius: 10px;
+}
+.grid-container {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .minicard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 26px; 
+  }
+  
+  .minicard > * {
+    flex: 0 0 calc(33.333% - 26px); 
+    box-sizing: border-box; 
+  }
+  
